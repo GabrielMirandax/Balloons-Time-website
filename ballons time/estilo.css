@@ -1,0 +1,92 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(39, 39, 39, 0.267) 0px 7px 100px 0px;
+}
+
+
+.inicio {
+    background: linear-gradient(135deg, #a14fe0, #f55bb2);
+    height: 830px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    font-size: 22pt;
+}
+
+.inicio p {
+    text-shadow: 1px 3px 3px rgba(36, 36, 36, 0.555);
+}
+
+#servicos {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+}
+
+#servicos h1 {
+    margin-bottom: 80px;
+    font-size: 30pt;
+    color:  #965dc2;
+}
+
+#sessao-de-cards {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 20px;
+}
+
+.cards {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: rgba(179, 179, 179, 0.2) 0px 7px 29px 0px;
+
+}
+
+.card {
+    width: 100px;
+}
+
+#botao-criar {
+    background: #fff;
+    color: #f55bb2;
+    border-radius: 12px;
+    padding: 20px 24px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: rgba(2, 2, 2, 0.288) 0px 7px 29px 0px;
+}
+
+#botao-criar:hover {
+    background: #f55bb2;
+    color: #fff;
+}
+
+.carrosel-img{
+    height: 300px;
+}

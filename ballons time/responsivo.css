@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+
+  #cabecalho {
+    padding: 20px 0;
+  }
+
+  #cabecalho img {
+    width: 120px;
+  }
+
+  /* Seção inicial (banner) */
+  .inicio {
+    padding: 40px 15px;
+    height: 715px;
+    font-size: 16pt;
+    text-align: center;
+    gap: 30px;
+  }
+
+  #botao-criar {
+    padding: 15px 20px;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+  }
+
+  /* Serviços */
+  #servicos {
+    padding: 40px 15px;
+    height: auto;
+  }
+
+  #servicos h1 {
+    font-size: 22pt;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  #sessao-de-cards {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .cards {
+    width: 46%;
+    padding: 20px;
+  }
+
+  .card {
+    width: 80px;
+  }
+
+}
